@@ -35,7 +35,7 @@ class StreamData:
 
 
 @dataclass
-class OpenAIChat(Model):
+class AimlAPIChat(Model):
     """
     A class for interacting with OpenAI models.
 
@@ -43,7 +43,7 @@ class OpenAIChat(Model):
     """
 
     id: str = "gpt-4o"
-    name: str = "OpenAIChat"
+    name: str = "AimlAPIChat"
     provider: str = "OpenAI"
     supports_structured_outputs: bool = True
 
